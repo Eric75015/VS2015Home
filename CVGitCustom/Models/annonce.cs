@@ -10,7 +10,7 @@ namespace CVGitCustom.Models
 {
     public class Annonce
     {
-        public int AnnId { get; set; }
+        public int ID { get; set; }
 
         public string Name { get; set; }
 

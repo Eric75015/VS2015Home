@@ -8,7 +8,7 @@ using CVGitCustom.Class;
 
 namespace CVGitCustom.Models
 {
-    class File
+    public class File
     {
         public int FileId { get; set; }
         [StringLength(255)]
