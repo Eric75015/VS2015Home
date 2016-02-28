@@ -13,12 +13,12 @@ namespace CVGitCustom
         // 'CVGitCustom.ModelAnnonce' database on your LocalDb instance. 
         // 
         // If you wish to target a different database and/or database provider, modify the 'ModelAnnonce' 
-        // connection string in the application configuration file.
+        // connection string in the application configuration file.sca
         public ModelAnnonce()
             : base("name=ModelAnnonce")
         {
         }
-        public DbSet<File> Files { get; set; }
+        public DbSet<File> Files { get; set; } 
 
         public DbSet<Annonce> Annonces { get; set; }
         // Add a DbSet for each entity type that you want to include in your model. For more information 
